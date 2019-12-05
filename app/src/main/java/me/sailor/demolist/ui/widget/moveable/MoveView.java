@@ -19,7 +19,7 @@ import me.sailor.demolist.R;
 public class MoveView extends LinearLayoutCompat {
 
     private int width;
-    private int height;
+    private int height;  
 
     public MoveView(Context context) {
         this(context, null);
