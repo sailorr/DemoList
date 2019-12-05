@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/blue</item>
+        <!-- Customize your theme here. -->
+        <!--Appbar背景色，应用的主要色调，actionBar默认使用该颜色-->
+        <!--<item name="android:colorPrimary">@color/colorPrimary</item>-->
+        <!--状态栏颜色，应用的主要暗色调，statusBarColor默认使用该颜色-->
+        <!--<item name="android:colorPrimaryDark">@color/colorPrimary</item>-->
+        <!--状态栏颜色，默认使用colorPrimaryDark-->
+        <!--<item name="android:statusBarColor">@color/blue</item>-->
+        <!--页面背景色-->
+        <!--<item name="android:windowBackground">@color/bgGray</item>-->
+        <!--底部导航栏颜色-->
+        <!--<item name="android:navigationBarColor">@color/colorPrimary</item>-->
+        <!--应用的主要文字颜色，actionBar的标题文字默认使用该颜色-->
+        <!--<item name="android:textColorPrimary">@android:color/black</item>-->
+        <!--ToolBar上的Title颜色-->
+        <!--<item name="android:textColorPrimaryInverse">@color/colorPrimary</item>/-->
+        <!--应用的前景色，ListView的分割线，switch滑动区默认使用该颜色-->
+        <!--<item name="android:colorForeground">@color/colorPrimary</item>-->
+        <!--应用的背景色，popMenu的背景默认使用该颜色-->
+        <!--<item name="android:colorBackground">@color/grey_line_bg</item>-->
+        <!--一般控件的选种效果默认采用该颜色-->
+        <!--<item name="android:colorAccent">@color/blue</item>-->
+        <!--控件选中时的颜色，默认使用colorAccent-->
+        <!--<item name="android:colorControlActivated">@color/colorPrimary</item>-->
+        <!--各个控制控件的默认颜色-->
+        <!--<item name="android:colorControlNormal">@color/colorPrimary</item>-->
+        <!--Button，textView的文字颜色-->
+        <!--<item name="android:textColor">@color/fontblack</item>-->
+        <!--RadioButton checkbox等控件的文字-->
+        <!--<item name="android:textColorPrimaryDisableOnly">@color/fontgray</item>-->
+        <!--默认按钮的背景颜色-->
+        <!--<item name="android:colorButtonNormal">@color/colorPrimary</item>-->
+        <!--控件按压时的色调-->
+        <!--<item name="android:colorControlHighlight">@color/yellow</item>-->
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <declare-styleable name="CountDownProgressBar">
+        <attr name="countDown_circleWidth" format="dimension" />
+        <attr name="countDown_centerTextSize" format="dimension" />
+        <attr name="countDown_betaAngle" format="integer" />
+        <attr name="countDown_firstColor" format="color" />
+        <attr name="countDown_secondColor" format="color" />
+        <attr name="countDown_centerTextColor" format="color" />
+        <attr name="countDown_isShowGradient" format="boolean" />
+    </declare-styleable>
+
+
+</resources>

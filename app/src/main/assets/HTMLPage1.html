@@ -1,0 +1,19 @@
+﻿<html>
+<head>
+</head>
+<body>
+    <input type="text" id="tv">
+    <input type="button" id="btn" onclick="giveAndroid()" value="给安卓发数据啦">
+    <script type="text/javascript">
+
+        function showAndroid(msg) {
+            alert(msg);
+        }
+
+        function giveAndroid() {
+            var msg = document.getElementById("tv").value;
+            android.show();
+        }
+    </script>
+</body>
+</html>

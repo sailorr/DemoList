@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteSmoke"
+    android:orientation="vertical"
+    tools:context=".ui.system_about.ClickAnimationActivity">
+
+    <TextView
+        style="@style/CustomPressShadow.NORMAL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Button" />
+
+    <ImageView
+        android:id="@+id/img"
+        style="@style/CustomPressShadow.NORMAL"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/iconwangjian" />
+
+    <LinearLayout
+        style="@style/CustomPressShadow.NORMAL"
+        android:layout_width="match_parent"
+        android:layout_height="180dp" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackgroundBorderless"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp"
+        app:cardMaxElevation="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ssssss" />
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

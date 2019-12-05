@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RockerView">
+        <attr name="areaBackground" format="color|reference"></attr>
+        <attr name="rockerBackground" format="color|reference"></attr>
+        <attr name="rockerRadius" format="dimension"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="TitleRadioGroupView">
+        <attr name="titleColor" format="color" />
+        <attr name="titleSize" format="dimension" />
+        <attr name="titleMargin" format="dimension" />
+        <attr name="top_bottom_padding" format="dimension" />
+        <attr name="left_right_padding" format="dimension" />
+        <attr name="titleStyle">
+            <enum name="plaintext" value="0" />
+            <enum name="img_text" value="1" />
+        </attr>
+        <attr name="titles" format="string" />
+        <attr name="titleBg" format="reference" />
+        <attr name="picofTitle1" format="reference" />
+        <attr name="picofTitle2" format="reference" />
+        <attr name="picofTitle3" format="reference" />
+        <attr name="picofTitle4" format="reference" />
+    </declare-styleable>
+</resources>

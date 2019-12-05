@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><!--ripple 水波纹效果-->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/white">
+    <!--加id mask 扩散效果会在控件内-->
+    <item android:id="@+id/masked">
+        <selector>
+            <item android:state_focused="true">
+
+                <inset xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:insetLeft="@dimen/spacing_tinyest"
+                    android:insetTop="@dimen/spacing_tinyest"
+                    android:insetRight="@dimen/spacing_tinyest"
+                    android:insetBottom="@dimen/spacing_tinyest">
+
+                    <shape android:shape="rectangle">
+                        <corners android:radius="2dp" />
+                        <solid android:color="@color/gray2" />
+                        <padding
+                            android:bottom="@dimen/spacing_tinyest"
+                            android:left="@dimen/spacing_tinyest"
+                            android:right="@dimen/spacing_tinyest"
+                            android:top="@dimen/spacing_tinyest" />
+                    </shape>
+                </inset>
+            </item>
+            <item android:state_pressed="true">
+
+                <inset xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:insetLeft="@dimen/spacing_tinyest"
+                    android:insetTop="@dimen/spacing_tinyest"
+                    android:insetRight="@dimen/spacing_tinyest"
+                    android:insetBottom="@dimen/spacing_tinyest">
+
+                    <shape android:shape="rectangle">
+                        <corners android:radius="2dp" />
+                        <solid android:color="@color/gray2" />
+                        <padding
+                            android:bottom="@dimen/spacing_tinyest"
+                            android:left="@dimen/spacing_tinyest"
+                            android:right="@dimen/spacing_tinyest"
+                            android:top="@dimen/spacing_tinyest" />
+                    </shape>
+                </inset>
+            </item>
+            <item android:drawable="@android:color/transparent" />
+        </selector>
+    </item>
+</ripple>

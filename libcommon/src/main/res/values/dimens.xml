@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 字体 -->
+    <dimen name="font_largest">22sp</dimen>
+    <dimen name="font_larger">18sp</dimen>
+    <dimen name="font_large">16sp</dimen>
+    <dimen name="font_normal">14sp</dimen>
+
+    <!-- margin and padding -->
+    <dimen name="spacing_normal">14dp</dimen>
+    <dimen name="spacing_tiny">6dp</dimen>
+    <dimen name="spacing_tinyer">4dp</dimen>
+    <dimen name="spacing_tinyest">2dp</dimen>
+</resources>

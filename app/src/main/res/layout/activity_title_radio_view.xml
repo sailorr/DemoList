@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".ui.widget.TitleRadioViewActivity">
+
+    <me.sailor.demolist.ui.TitleRadioGroupView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:picofTitle1="@mipmap/ic_launcher"
+        app:picofTitle2="@mipmap/ic_launcher"
+        app:picofTitle3="@mipmap/ic_launcher"
+        app:titleMargin="5dp"
+        app:titleSize="20sp"
+        app:titleStyle="img_text"
+        app:titles="左边1，左边2，左边3"
+        app:top_bottom_padding="8dp" />
+
+    <me.sailor.demolist.ui.TitleRadioGroupView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:titleMargin="15dp"
+        app:titles="左边，右边"
+        app:top_bottom_padding="8dp" />
+
+
+</LinearLayout>

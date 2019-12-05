@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/spacing_normal"
+    tools:context=".ui.widget.calendar.CalendarActivity">
+
+    <TextView
+        android:id="@+id/tvStart"
+        style="@style/BlackText.AreaTitle"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:gravity="center_vertical|right"
+        android:text="开始时间:"
+        app:layout_constraintLeft_toLeftOf="@+id/tvEnd"
+        app:layout_constraintRight_toRightOf="@+id/tvEnd" />
+
+    <TextView
+        android:id="@+id/timeStart"
+        style="@style/BlackText.AreaTitle"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/spacing_normal"
+        android:text="2019-12-12"
+        app:layout_constraintLeft_toRightOf="@id/tvStart"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/tvEnd"
+        style="@style/BlackText.AreaTitle"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:gravity="center_vertical"
+        android:text="结束的时间:"
+        app:layout_constraintTop_toBottomOf="@id/tvStart" />
+
+    <TextView
+        android:id="@+id/timeEnd"
+        style="@style/BlackText.AreaTitle"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/spacing_normal"
+        android:text="2019-12-12"
+        app:layout_constraintLeft_toRightOf="@+id/tvEnd"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timeStart" />
+
+    <Button
+        android:id="@+id/click"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="click me"
+        app:layout_constraintLeft_toLeftOf="@+id/tvEnd"
+        app:layout_constraintRight_toRightOf="@+id/timeEnd"
+        app:layout_constraintTop_toBottomOf="@id/tvEnd" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--PressShadow-->
+    <style name="CustomPressShadow">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:minHeight">35dp</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+    <style name="CustomPressShadow.NORMAL">
+        <item name="android:background">@drawable/ripper_press</item>
+    </style>
+
+    <!--text-->
+    <style name="BlackText">
+        <item name="android:textColor">@color/fontblack</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="BlackText.ContentTitle">
+        <item name="android:textSize">@dimen/font_large</item>
+    </style>
+
+    <style name="BlackText.AreaTitle">
+        <item name="android:textSize">@dimen/font_larger</item>
+    </style>
+
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.widget.WidgetActivity">
+
+    <Button
+        android:id="@+id/rxbinding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RxBinding"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/doublelist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="嵌套list"
+        app:layout_constraintTop_toBottomOf="@id/rxbinding" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="calendar"
+        android:id="@+id/calendar"
+        app:layout_constraintTop_toBottomOf="@id/doublelist" />
+    <Button
+        android:text="Rocker"
+        app:layout_constraintTop_toBottomOf="@id/calendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rocker"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TitleRadio"
+        app:layout_constraintTop_toBottomOf="@id/rocker"
+        android:id="@+id/titleradio"/>
+
+    <Button
+        android:id="@+id/txt"
+        android:text="select_all_text"
+        app:layout_constraintTop_toBottomOf="@id/titleradio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/select_widget"
+        android:text="select_widget"
+        app:layout_constraintTop_toBottomOf="@id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/select_del"
+        android:text="select_del"
+        app:layout_constraintTop_toBottomOf="@id/select_widget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</android.support.constraint.ConstraintLayout>
