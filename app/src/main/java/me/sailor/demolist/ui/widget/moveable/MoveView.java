@@ -29,7 +29,6 @@ public class MoveView extends LinearLayoutCompat {
         super(context, attrs);
         LayoutInflater.from(context).inflate(R.layout.view_moveview,this);
     }
-
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
