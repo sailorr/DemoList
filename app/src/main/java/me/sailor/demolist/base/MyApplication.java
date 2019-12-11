@@ -2,8 +2,6 @@ package me.sailor.demolist.base;
 
 import android.app.Application;
 import android.content.Context;
-import android.os.Debug;
-import android.os.Environment;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
@@ -26,8 +24,6 @@ public class MyApplication extends Application implements Thread.UncaughtExcepti
     @Override
     public void onCreate() {
         super.onCreate();
-        String path = Environment.getExternalStorageDirectory().getAbsolutePath()+"/demo.trace";
-        Debug.startMethodTracing(path);
         INSTANCE = getApplicationContext();
         configLogger();
         RetrofitManager.getInstance().setBaseUrl(ContantApi.BASE_URL);

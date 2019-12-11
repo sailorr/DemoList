@@ -25,7 +25,9 @@ import java.util.concurrent.Executors;
 
 import me.sailor.demolist.R;
 
-@SuppressWarnings("ALL")
+/**
+ * 需要启动java socketserver
+ */
 public class SocketActivity extends AppCompatActivity implements View.OnClickListener {
     private EditText mEditText;
     private TextView mTextView;
@@ -83,7 +85,7 @@ public class SocketActivity extends AppCompatActivity implements View.OnClickLis
                     public void run() {
                         try {
                             if (mSocket == null) {
-                                mSocket = new Socket("192.168.0.246", 8888);
+                                mSocket = new Socket("192.168.50.152", 8089);
                                 //接收消息的流对象
                                 in = new BufferedReader(new InputStreamReader(mSocket
                                         .getInputStream()));
