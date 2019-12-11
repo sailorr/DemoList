@@ -40,6 +40,7 @@ public class SocketActivity extends AppCompatActivity implements View.OnClickLis
     private BufferedReader in = null;
     private PrintWriter out = null;
 
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
