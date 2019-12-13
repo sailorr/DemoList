@@ -19,7 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:padding="@dimen/font_normal"
+        android:padding="@dimen/spacing_10"
         android:src="@drawable/ic_download"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
@@ -29,7 +29,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/yellow"
-        android:textSize="@dimen/font_largest"
+        android:textSize="@dimen/font_22"
         app:layout_constraintBottom_toBottomOf="@+id/down"
         app:layout_constraintRight_toLeftOf="@+id/down"
         app:layout_constraintTop_toTopOf="@+id/down" />

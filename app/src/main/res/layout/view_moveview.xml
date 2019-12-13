@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tool="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
-    tool:background="@color/Green"
+    tool:background="@color/bgGray"
     android:layout_height="wrap_content">
 
     <me.sailor.demolist.ui.widget.moveable.CirlceLineView
@@ -22,7 +22,7 @@
         android:text="这是内容"
         android:padding="@dimen/dp_10"
         android:textColor="#fff"
-        android:textSize="14sp"
+        android:textSize="40sp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toRightOf="@id/view"
         tool:text="这是内容" />

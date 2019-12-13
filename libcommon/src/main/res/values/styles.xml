@@ -7,23 +7,69 @@
         <item name="android:minHeight">35dp</item>
         <item name="android:gravity">center_vertical|center_horizontal</item>
     </style>
+
     <style name="CustomPressShadow.NORMAL">
         <item name="android:background">@drawable/ripper_press</item>
     </style>
 
     <!--text-->
     <style name="BlackText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/fontblack</item>
         <item name="android:maxLines">1</item>
         <item name="android:ellipsize">end</item>
     </style>
 
-    <style name="BlackText.ContentTitle">
-        <item name="android:textSize">@dimen/font_large</item>
+    <style name="BlackText.22sp">
+        <item name="android:textSize">@dimen/font_22</item>
     </style>
 
-    <style name="BlackText.AreaTitle">
-        <item name="android:textSize">@dimen/font_larger</item>
+    <style name="BlackText.20sp">
+        <item name="android:textSize">@dimen/font_20</item>
     </style>
+
+    <style name="BlackText.18sp">
+        <item name="android:textSize">@dimen/font_18</item>
+    </style>
+
+    <style name="BlackText.16sp">
+        <item name="android:textSize">@dimen/font_18</item>
+    </style>
+
+    <style name="BlackText.14sp">
+        <item name="android:textSize">@dimen/font_18</item>
+    </style>
+
+
+    <!--text-->
+    <style name="GrayText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/fontgray</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="GrayText.22sp">
+        <item name="android:textSize">@dimen/font_22</item>
+    </style>
+
+    <style name="GrayText.20sp">
+        <item name="android:textSize">@dimen/font_20</item>
+    </style>
+
+    <style name="GrayText.18sp">
+        <item name="android:textSize">@dimen/font_18</item>
+    </style>
+
+    <style name="GrayText.16sp">
+        <item name="android:textSize">@dimen/font_18</item>
+    </style>
+
+    <style name="GrayText.14sp">
+        <item name="android:textSize">@dimen/font_18</item>
+    </style>
+
 
 </resources>

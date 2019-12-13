@@ -85,7 +85,7 @@ public class RxBindActivity extends BaseActivity {
                     @Override
                     public void accept(Boolean aBoolean) throws Exception {
                         btn4.setEnabled(aBoolean);
-                        btn4.setBackgroundResource(aBoolean ? R.color.whiteSmoke : R.color.gray4);
+                        btn4.setBackgroundResource(aBoolean ? R.color.gray1 : R.color.gray3);
                     }
                 });
         RxView.clicks(btn4)

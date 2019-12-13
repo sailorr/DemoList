@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/bgGray"
     tools:context=".ui.widget.selectall.SelectAllActivity">
 
 
@@ -15,6 +16,7 @@
         android:gravity="left"
         android:text="认选中全部文字长按默认选中全部文字长按默认选中全部文字长按默认选中全部文字"
         android:textSize="18sp"
+        android:textColor="@color/fontgray"
         android:textIsSelectable="true"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
@@ -30,4 +32,8 @@
         android:textIsSelectable="true"
         app:layout_constraintTop_toBottomOf="@id/text_txt"
         tools:ignore="MissingConstraints" />
+
+    <TextView
+        style="@style/BlackText.22sp"
+        android:text="fjdsahfkdhsakfjkdshkafhk " />
 </android.support.constraint.ConstraintLayout>
