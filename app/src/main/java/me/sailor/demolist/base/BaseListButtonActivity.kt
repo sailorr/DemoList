@@ -1,7 +1,6 @@
 package me.sailor.demolist.base
 
 import android.content.Intent
-import android.support.v7.widget.LinearLayoutManager
 import android.util.Log
 import kotlinx.android.synthetic.main.activity_baselist.*
 import me.sailor.demolist.R
@@ -22,7 +21,7 @@ abstract class BaseListButtonActivity : BaseActivity() {
     override fun init() {
         itemList = setData()
         mAdapter = BaseRvAdapter(itemList)
-        rv_base.layoutManager = LinearLayoutManager(this)
+        rv_base.layoutManager = androidx.recyclerview.widget.LinearLayoutManager(this)
         rv_base.adapter = mAdapter
         mAdapter?.setOnItemClickListener { _, _, position ->
             Log.d("BaseListButtonActivity", "init:$position ")

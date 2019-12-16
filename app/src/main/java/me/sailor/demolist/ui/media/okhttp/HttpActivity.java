@@ -3,24 +3,23 @@ package me.sailor.demolist.ui.media.okhttp;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
-import android.support.annotation.NonNull;
-import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.util.Log;
 
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.DefaultItemAnimator;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.StaggeredGridLayoutManager;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import me.sailor.demolist.contant.ContantApi;
 import me.sailor.demolist.R;
-import me.sailor.libcommon.base.BaseActivity;
 import me.sailor.demolist.bean.Result;
+import me.sailor.demolist.contant.ContantApi;
+import me.sailor.libcommon.base.BaseActivity;
 import me.sailor.libcommon.net.okhttp.HttpCallback;
 import me.sailor.libcommon.net.okhttp.HttpManager;
-import me.sailor.libcommon.net.retrofit.RetrofitManager;
 
 public class HttpActivity extends BaseActivity implements HttpContract.IView {
     private SwipeRefreshLayout mRefreshLayout;

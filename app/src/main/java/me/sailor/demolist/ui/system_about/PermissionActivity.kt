@@ -1,8 +1,8 @@
 package me.sailor.demolist.ui.system_about
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
 import android.util.Log
+import androidx.appcompat.app.AppCompatActivity
 import com.yanzhenjie.permission.runtime.Permission
 import kotlinx.android.synthetic.main.activity_permission.*
 import kotlinx.android.synthetic.main.activity_share.pic

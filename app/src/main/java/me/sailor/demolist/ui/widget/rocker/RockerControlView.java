@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import androidx.annotation.Nullable;
+
 import me.sailor.demolist.R;
 import me.sailor.libcommon.utils.HintUtils;
 
@@ -28,7 +29,7 @@ public class RockerControlView extends LinearLayout implements AddandSubtractVie
         this(context, null);
     }
 
-    public RockerControlView(Context context, @Nullable @android.support.annotation.Nullable AttributeSet attrs) {
+    public RockerControlView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
         initView();
     }

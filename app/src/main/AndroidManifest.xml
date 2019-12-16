@@ -17,14 +17,15 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_config"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ui.widget.moveable.MovebleActivity"></activity>
+        <activity android:name=".ui.widget.brvah.PreAndDownActivity"></activity>
+        <activity android:name=".ui.widget.moveable.MovebleActivity" />
         <activity android:name=".ui.widget.CanvaTestActivity" />
         <activity android:name=".ui.system_about.anim.AnimationActivity" />
-        <activity android:name=".ui.CanvaActivity" />
         <activity android:name=".ui.widget.circle.CircleLineActivity" />
         <activity android:name=".ui.widget.tablayout.TabLayoutActivity" />
         <activity android:name=".ui.widget.ViewSwitchActivity" />
@@ -78,7 +79,7 @@
         <activity android:name=".ui.system_about.CanvasActivity" />
 
         <provider
-            android:name="android.support.v4.content.FileProvider"
+            android:name="androidx.core.content.FileProvider"
             android:authorities="me.sailor.demolist.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">

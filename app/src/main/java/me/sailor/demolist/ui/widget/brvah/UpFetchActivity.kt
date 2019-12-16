@@ -2,13 +2,11 @@ package me.sailor.demolist.ui.widget.brvah
 
 import android.content.Context
 import android.content.Intent
-import android.support.v7.widget.LinearLayoutManager
 import android.util.Log
 import kotlinx.android.synthetic.main.activity_up_fetch.*
 import me.sailor.demolist.R
 import me.sailor.demolist.bean.Book
 import me.sailor.libcommon.base.BaseActivity
-import kotlin.collections.ArrayList
 
 class UpFetchActivity : BaseActivity() {
     companion object {
@@ -25,7 +23,7 @@ class UpFetchActivity : BaseActivity() {
     var data = ArrayList<Book>()
     override fun init() {
 
-        rv_upfetch.layoutManager = LinearLayoutManager(this@UpFetchActivity)
+        rv_upfetch.layoutManager = androidx.recyclerview.widget.LinearLayoutManager(this@UpFetchActivity)
         rv_upfetch.adapter = mAdapter
         mAdapter.setNewData(genData())
         mAdapter.isUpFetchEnable = true

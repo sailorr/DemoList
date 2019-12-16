@@ -3,10 +3,11 @@ package me.sailor.demolist.ui.main;
 
 import android.content.Context;
 import android.os.Debug;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
+
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.yanzhenjie.permission.Action;
 import com.yanzhenjie.permission.AndPermission;
@@ -19,9 +20,9 @@ import java.util.List;
 
 import me.sailor.demolist.R;
 import me.sailor.demolist.base.BaseRecycleViewAdapter;
-import me.sailor.libcommon.base.BaseActivity;
 import me.sailor.demolist.bean.ItemModel;
 import me.sailor.demolist.util.ActivityManager;
+import me.sailor.libcommon.base.BaseActivity;
 import me.sailor.libcommon.utils.FileUtils;
 
 /**

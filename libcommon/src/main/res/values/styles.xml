@@ -34,11 +34,11 @@
     </style>
 
     <style name="BlackText.16sp">
-        <item name="android:textSize">@dimen/font_18</item>
+        <item name="android:textSize">@dimen/font_16</item>
     </style>
 
     <style name="BlackText.14sp">
-        <item name="android:textSize">@dimen/font_18</item>
+        <item name="android:textSize">@dimen/font_14</item>
     </style>
 
 
@@ -64,11 +64,11 @@
     </style>
 
     <style name="GrayText.16sp">
-        <item name="android:textSize">@dimen/font_18</item>
+        <item name="android:textSize">@dimen/font_16</item>
     </style>
 
     <style name="GrayText.14sp">
-        <item name="android:textSize">@dimen/font_18</item>
+        <item name="android:textSize">@dimen/font_14</item>
     </style>
 
 

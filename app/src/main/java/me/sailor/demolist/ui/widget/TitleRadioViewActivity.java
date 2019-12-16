@@ -1,10 +1,13 @@
 package me.sailor.demolist.ui.widget;
+
 import android.content.Context;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.CompoundButton;
+
+import androidx.appcompat.app.AppCompatActivity;
+
 import me.sailor.demolist.R;
 import me.sailor.demolist.ui.TitleRadioGroupView;
 

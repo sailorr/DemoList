@@ -1,7 +1,7 @@
 package me.sailor.libcommon.preview;
 
-import android.support.v7.widget.PagerSnapHelper;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.PagerSnapHelper;
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * @author ：chezi008 on 2018/8/9 21:55

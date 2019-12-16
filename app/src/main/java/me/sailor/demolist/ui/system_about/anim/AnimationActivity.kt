@@ -1,19 +1,12 @@
 package me.sailor.demolist.ui.system_about.anim
 
-import android.animation.Animator
-import android.animation.AnimatorSet
 import android.annotation.SuppressLint
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.view.View
-import android.view.animation.AnimationSet
 import android.view.animation.AnimationUtils
-import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_animation.*
 import me.sailor.demolist.R
-import me.sailor.demolist.ui.system_about.anim.CountDownProgressBar.*
-import me.sailor.demolist.ui.widget.CountDownView
 
 class AnimationActivity : AppCompatActivity() {
 

@@ -4,11 +4,12 @@ package me.sailor.libcommon.base;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Window;
 import android.widget.Toast;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 import me.sailor.libcommon.widget.LoadingDialog;
 
@@ -26,7 +27,6 @@ public abstract class BaseActivity extends AppCompatActivity implements IBaseVie
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         getWindow().requestFeature(Window.FEATURE_NO_TITLE);
         super.onCreate(savedInstanceState);
-        Log.d("*-*-*-*-*-*-*-*-*", this.getClass().getSimpleName());
         initBaseView();
         setContentView(setLayoutId());
         init();

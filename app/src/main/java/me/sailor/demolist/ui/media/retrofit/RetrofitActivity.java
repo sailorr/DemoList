@@ -2,10 +2,11 @@ package me.sailor.demolist.ui.media.retrofit;
 
 import android.content.Context;
 import android.content.Intent;
-import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,10 +14,10 @@ import java.util.List;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.functions.Consumer;
 import io.reactivex.schedulers.Schedulers;
-import me.sailor.demolist.contant.Api;
 import me.sailor.demolist.R;
 import me.sailor.demolist.bean.JsonRootBean;
 import me.sailor.demolist.bean.Result;
+import me.sailor.demolist.contant.Api;
 import me.sailor.libcommon.base.BaseActivity;
 import me.sailor.libcommon.net.retrofit.RetrofitManager;
 

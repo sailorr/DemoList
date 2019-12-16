@@ -3,11 +3,11 @@ package me.sailor.demolist.ui.system_about
 import android.content.ContentResolver
 import android.content.Intent
 import android.os.Bundle
-import android.support.v4.content.FileProvider
-import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.widget.Toast
 import androidx.annotation.DrawableRes
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.FileProvider
 import kotlinx.android.synthetic.main.activity_share.*
 import me.sailor.demolist.R
 import me.sailor.libcommon.utils.FileUtils

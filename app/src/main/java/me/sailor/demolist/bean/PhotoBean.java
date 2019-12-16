@@ -1,4 +1,4 @@
-package com.chezi008.libphotopreview.bean;
+package me.sailor.demolist.bean;
 
 import android.os.Parcel;
 import android.os.Parcelable;

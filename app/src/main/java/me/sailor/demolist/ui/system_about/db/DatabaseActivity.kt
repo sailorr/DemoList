@@ -1,10 +1,9 @@
 package me.sailor.demolist.ui.system_about.db
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
-import android.support.v7.widget.LinearLayoutManager
 import android.util.Log
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_database.*
 import me.sailor.demolist.R
 import me.sailor.libcommon.manager.executor.ExecutorManager
@@ -22,7 +21,7 @@ class DatabaseActivity : AppCompatActivity() {
         del.setOnClickListener(listener)
         look.setOnClickListener(listener)
         mAdapter = DBRvAdapter(users)
-        rv_db.layoutManager = LinearLayoutManager(this)
+        rv_db.layoutManager = androidx.recyclerview.widget.LinearLayoutManager(this)
         rv_db.adapter = mAdapter
     }
 

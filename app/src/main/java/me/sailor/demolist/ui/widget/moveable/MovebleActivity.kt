@@ -1,7 +1,7 @@
 package me.sailor.demolist.ui.widget.moveable
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import me.sailor.demolist.R
 
 class MovebleActivity : AppCompatActivity() {

@@ -34,7 +34,6 @@ public class DownloadLimitObserver implements Observer<DownloadInfo> {
 
     @Override
     public void onError(Throwable e) {
-        Log.d("My_Log","onError");
         if (DownloadLimitManager.getInstance().getDownloadUrl(downloadInfo.getUrl())){
             DownloadLimitManager.getInstance().pauseDownload(downloadInfo.getUrl());
             downloadInfo.setDownloadStatus(DownloadInfo.DOWNLOAD_ERROR);

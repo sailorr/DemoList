@@ -1,7 +1,7 @@
 package me.sailor.demolist.ui.system_about.callback
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main2.*
 import me.sailor.demolist.R
 

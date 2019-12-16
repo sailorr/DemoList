@@ -1,8 +1,6 @@
 package me.sailor.libcommon.manager;
 
 import android.content.Context;
-import android.content.DialogInterface;
-import android.support.v7.app.AlertDialog;
 import android.widget.Toast;
 
 import com.yanzhenjie.permission.Action;
@@ -12,8 +10,6 @@ import com.yanzhenjie.permission.RequestExecutor;
 import com.yanzhenjie.permission.runtime.Permission;
 
 import java.util.List;
-
-import me.sailor.libcommon.R;
 
 /**
  * @author Administrator on2019/5/15 17:13

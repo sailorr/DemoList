@@ -2,10 +2,9 @@ package me.sailor.demolist.ui.widget.doublerecycle;
 
 import android.content.Context;
 import android.content.Intent;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 
-import com.orhanobut.logger.Logger;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -46,7 +45,6 @@ public class DoubleRecycleActivity extends BaseActivity {
             }
             lists.add(strings);
         }
-        Logger.d(lists.toString());
         return lists;
     }
 

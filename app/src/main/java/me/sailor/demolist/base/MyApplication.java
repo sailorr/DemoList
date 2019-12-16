@@ -2,11 +2,7 @@ package me.sailor.demolist.base;
 
 import android.app.Application;
 import android.content.Context;
-import android.widget.ImageView;
 
-import com.bumptech.glide.Glide;
-import com.chezi008.libphotopreview.listener.GlideListener;
-import com.chezi008.libphotopreview.manager.PreviewListenerManager;
 import com.orhanobut.logger.AndroidLogAdapter;
 import com.orhanobut.logger.Logger;
 
@@ -27,13 +23,13 @@ public class MyApplication extends Application implements Thread.UncaughtExcepti
         INSTANCE = getApplicationContext();
         configLogger();
         RetrofitManager.getInstance().setBaseUrl(ContantApi.BASE_URL);
-
-        PreviewListenerManager.getInstance().glideListener = new GlideListener() {
-            @Override
-            public void loadLocalImage(ImageView imageView, String path) {
-                Glide.with(imageView).load(path).into(imageView);
-            }
-        };
+//
+//        PreviewListenerManager.getInstance().glideListener = new GlideListener() {
+//            @Override
+//            public void loadLocalImage(ImageView imageView, String path) {
+//                Glide.with(imageView).load(path).into(imageView);
+//            }
+//        };
     }
 
     public static Context getContext() {

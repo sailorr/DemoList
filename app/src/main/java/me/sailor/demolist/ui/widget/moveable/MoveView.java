@@ -3,11 +3,12 @@ package me.sailor.demolist.ui.widget.moveable;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Canvas;
-import android.support.v7.widget.LinearLayoutCompat;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
+
+import androidx.appcompat.widget.LinearLayoutCompat;
 
 import me.sailor.demolist.R;
 import me.sailor.libcommon.utils.DensityUtils;

@@ -2,13 +2,15 @@ package me.sailor.demolist.ui.widget;
 
 import android.content.Context;
 import android.graphics.Color;
-import android.support.design.widget.TabLayout;
-import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+
+import androidx.viewpager.widget.ViewPager;
+
+import com.google.android.material.tabs.TabLayout;
 
 import me.sailor.libcommon.R;
 import me.sailor.libcommon.utils.DensityUtils;

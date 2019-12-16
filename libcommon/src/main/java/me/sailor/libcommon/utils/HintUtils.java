@@ -20,7 +20,6 @@ public class HintUtils {
         Toast.makeText(context, o.toString(), Toast.LENGTH_SHORT).show();
     }
 
-
     public static void d(Class aClass,Object o){
         Log.d(aClass.getSimpleName(),o.toString());
     }

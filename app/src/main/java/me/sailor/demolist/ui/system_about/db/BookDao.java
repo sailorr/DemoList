@@ -1,8 +1,8 @@
 package me.sailor.demolist.ui.system_about.db;
 
-import android.arch.persistence.room.Dao;
-import android.arch.persistence.room.Insert;
-import android.arch.persistence.room.Query;
+import androidx.room.Dao;
+import androidx.room.Insert;
+import androidx.room.Query;
 
 /**
  * @author Administrator on2019/3/5 10:51

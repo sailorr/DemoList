@@ -3,10 +3,11 @@ package me.sailor.demolist.ui.media.okhttp;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.view.View;
 import android.widget.ImageView;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
@@ -18,10 +19,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 import me.sailor.demolist.R;
-import me.sailor.demolist.ui.widget.preview.PrePhotoActivity;
 import me.sailor.demolist.base.BaseRecycleViewAdapter;
 import me.sailor.demolist.base.BaseViewHolder;
 import me.sailor.demolist.bean.Result;
+import me.sailor.demolist.ui.widget.preview.PrePhotoActivity;
 
 /**
  * @author sailor

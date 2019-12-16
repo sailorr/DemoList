@@ -3,15 +3,14 @@ package me.sailor.demolist.ui.widget.Fragment
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import android.support.v4.app.Fragment
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.content_fragment.*
 import me.sailor.demolist.R
 
 
 class FragmentActivity : AppCompatActivity() {
     private val titles = arrayOf("最新", "热门", "推荐", "图片", "视频", "我的")
-    private val fragments: MutableList<Fragment> = ArrayList()
+    private val fragments: MutableList<androidx.fragment.app.Fragment> = ArrayList()
     private var viewAdapter: ViewAdapter? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

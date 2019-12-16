@@ -1,17 +1,14 @@
 package me.sailor.demolist.ui.widget;
 
-import android.app.Activity;
 import android.content.Context;
 import android.os.Handler;
 import android.os.Message;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 
 import androidx.annotation.Nullable;
-
 
 import me.sailor.demolist.R;
 
@@ -19,7 +16,7 @@ import me.sailor.demolist.R;
  * -description:
  * -author: created by tang on 2019/11/7 9:29
  */
-public class CountDownView extends android.support.v7.widget.AppCompatTextView {
+public class CountDownView extends androidx.appcompat.widget.AppCompatTextView {
 
     private Thread mThread;
     private Animation mAnimation;

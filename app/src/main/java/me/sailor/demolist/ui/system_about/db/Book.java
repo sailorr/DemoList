@@ -1,7 +1,7 @@
 package me.sailor.demolist.ui.system_about.db;
 
-import android.arch.persistence.room.Entity;
-import android.arch.persistence.room.PrimaryKey;
+import androidx.room.Entity;
+import androidx.room.PrimaryKey;
 
 /**
  * @author Administrator on2019/3/5 10:50

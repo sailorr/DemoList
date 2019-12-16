@@ -1,8 +1,7 @@
 package me.sailor.demolist.ui.widget.tablayout
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.support.design.widget.TabItem
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_tab_layout.*
 import me.sailor.demolist.R
 

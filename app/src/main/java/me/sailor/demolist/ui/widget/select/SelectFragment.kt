@@ -1,9 +1,6 @@
 package me.sailor.demolist.ui.widget.select
 
 import android.os.Bundle
-import android.support.v4.app.Fragment
-import android.support.v7.widget.DividerItemDecoration
-import android.support.v7.widget.LinearLayoutManager
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -15,7 +12,7 @@ import me.sailor.demolist.R
  *  -description:
  *  -author: created by tang on 2019/9/25 15:08
  */
-class SelectFragment : Fragment() {
+class SelectFragment : androidx.fragment.app.Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         Log.d("SelectFragment", "onCreate: ")
         super.onCreate(savedInstanceState)
@@ -36,8 +33,8 @@ class SelectFragment : Fragment() {
     var adapter = SelectAdapter(mList)
 
     private fun init() {
-        rv_select.layoutManager = LinearLayoutManager(activity)
-        rv_select.addItemDecoration(DividerItemDecoration(activity, DividerItemDecoration.VERTICAL))
+        rv_select.layoutManager = androidx.recyclerview.widget.LinearLayoutManager(activity)
+        rv_select.addItemDecoration(androidx.recyclerview.widget.DividerItemDecoration(activity, androidx.recyclerview.widget.DividerItemDecoration.VERTICAL))
         rv_select.adapter = adapter
 
     }

@@ -1,7 +1,8 @@
 package me.sailor.demolist.ui.system_about.db;
 
-import android.arch.persistence.room.Room;
 import android.content.Context;
+
+import androidx.room.Room;
 
 import java.util.List;
 

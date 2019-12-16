@@ -1,12 +1,11 @@
 package me.sailor.demolist.ui.widget.tablayout
 
 import android.content.Context
-import android.support.design.widget.TabLayout
-import android.support.v7.widget.LinearLayoutCompat
 import android.util.AttributeSet
 import android.util.Log
 import android.view.LayoutInflater
-import android.widget.TableLayout
+import androidx.appcompat.widget.LinearLayoutCompat
+import com.google.android.material.tabs.TabLayout
 import kotlinx.android.synthetic.main.view_customtab.view.*
 import me.sailor.demolist.R
 
